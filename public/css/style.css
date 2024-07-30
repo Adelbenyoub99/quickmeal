@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    color: white;
+    transition: .3s;
+    font-family: 'Nunito Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --orange: #fbaf32;
+    --vert: #719a0a;
+}
+    

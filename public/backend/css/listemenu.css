@@ -1,0 +1,44 @@
+body {
+  padding-left: 280px;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  th:first-child, td:first-child {
+    width: 25%;
+  }
+  
+  th:nth-child(2), td:nth-child(2) {
+    width: 25%;
+  }
+  
+  th:nth-child(3), td:nth-child(3) {
+    width: 20%;
+  }
+  
+  th:last-child, td:last-child {
+    width: 30%;
+  }
+
+  button {
+    color: #fff;
+    border-radius: 4px;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }

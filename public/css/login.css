@@ -1,0 +1,89 @@
+section {
+    position: relative;
+    left: 0;
+    top: 12vh;
+    height: 88vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url('../assets/hero.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+  
+  .login-container {
+    position: relative;
+    width: 40%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.84);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+
+  
+  h2 {
+    color: #454545;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+
+    margin-bottom: 20px;
+  }
+  
+  label {
+    color: #454545;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    color: #454545;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f2f2f2;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  button[type="submit"] {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--vert);
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  button[type="submit"]:hover {
+    background-color: var(--orange);
+  }
+
+  input[type="submit"]:hover {
+    background-color: var(--orange);
+  }
+  p {
+    color: #777777;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  p a {
+    
+    color: var(--vert);
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+
+  p a:hover {
+    color: var(--vert);
+  }

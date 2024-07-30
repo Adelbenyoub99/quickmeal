@@ -1,0 +1,36 @@
+section{
+    margin-top: 14vh;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+h1{
+    font-size: 40px;
+    color:var(--orange);
+}
+
+p{
+    margin-top: 50px;
+    font-size:25px;
+    color: black;
+}
+
+p span {
+    color: var(--vert);
+}
+
+.image_texte {
+    display: flex;
+    align-items: center;
+  }
+  
+.image {
+    flex: 1;
+  }
+  
+.text {
+    flex: 1;
+    padding: 0 20px;
+  }
+  
+  

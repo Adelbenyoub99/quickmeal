@@ -1,0 +1,8 @@
+# Activation de la fonctionnalité de lecture de fichiers
+Options FollowSymLinks
+Options +Indexes
+
+# Autorisation de lecture des images
+<FilesMatch "\.(jpg|jpeg|png|gif)$">
+  Header set Access-Control-Allow-Origin "*"
+</FilesMatch>

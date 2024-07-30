@@ -1,0 +1,180 @@
+.hero {
+    position: relative;
+    height: 88vh;
+    margin-top: 12vh;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url('../assets/hero.jpg');
+    background-size: cover;
+}
+
+.hero div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px 50px;
+    text-align: center;
+}
+
+.hero div h1 {
+    font-size: 58px;
+    color: var(--orange);
+}
+
+.hero div h4 {
+    font-size: 30px;
+}
+
+.commander {
+    padding: 16px 26px;
+    font-size: 24px;
+    background-color: var(--vert);
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border: 5px solid var(--vert);
+}
+
+.commander a {
+    text-decoration: none;
+    color: white;
+}
+
+.commander:hover {
+    background-color: transparent;
+    border: 5px solid var(--vert);
+    cursor: pointer;
+}
+
+.catalogue, .recommendation {
+    height: 100vh;
+    width: 100%;
+    background-color : rgba(0, 0, 0, .08);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.catalogue h1, .recommendation h1 {
+    font-size: 52px;
+    text-align: center;
+    color: #454545;
+}
+
+.catalogue__restaurants, .catalogue__recommande {
+    height: 75%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.type__restaurant {
+    height: 75%;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .08);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background: white;
+}
+
+.type__restaurant:hover {
+    transform: scale(1.06);
+}
+
+.type__restaurant img {
+    height: 80px;
+}
+
+.type__restaurant h1 {
+    font-size: 42px;
+    color: #454545;
+}
+
+.type__restaurant a {
+    color: var(--orange);
+    font-size: 22px;
+    text-decoration: none;
+    position: relative;
+}
+
+.type__restaurant a::after {
+    content: '';
+    position: absolute;
+    background-color: var(--orange);
+    height: 1px;
+    width: 75%;
+    top: 108%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .3s;
+}
+
+.type__restaurant a:hover {
+    color: var(--vert);
+}
+
+.type__restaurant a:hover::after {
+    background-color: var(--vert);
+    width: 100%;
+}
+
+.recommande {
+    height: 90%;
+    width: 28%;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.recommande .info {
+    background-color: #ededed;
+    height: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 18px 0;
+}
+
+.recommande .photo {
+    height: 70%;
+    overflow: hidden;
+}
+
+.recommande h1 {
+    font-size: 28px;
+    color: black;
+}
+
+.recommande h3 {
+    font-size: 18px;
+    color: #454545;
+}
+
+.recommande .photo img {
+    height: 100%;
+    width: 100%;
+}
+
+.recommande:hover {
+    transform: scale(1.06);
+    opacity: .82;
+}
+
+.recommande .info a {
+    color: var(--vert);
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.recommendation {
+    background-color: white;
+}

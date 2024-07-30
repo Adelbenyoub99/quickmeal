@@ -1,0 +1,97 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 12vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+    z-index: 1;
+}
+
+nav {
+    width: 38%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.item__menu {
+    text-decoration: none;
+    font-size: 18px;
+    color: #454545;
+    font-weight: 600;
+}
+
+.item__menu:hover {
+    color: var(--orange);
+}
+
+#identifier {
+    background-color: var(--vert);
+    border-radius: 4px;
+    padding: 6px 10px;
+    color: white;
+}
+
+#identifier:hover {
+    background-color: var(--orange);
+}
+
+.panier img,
+.recherche img {
+    width: 34px;
+    background-color: var(--vert);
+    border-radius: 5px;
+    padding: 4px 4px;
+    cursor: pointer;
+}
+
+.panier img:hover,
+.recherche img:hover {
+    background-color: var(--orange);
+}
+
+.logo {
+    width: 30%;
+    color: var(--orange);
+    cursor: pointer;
+}
+
+.logo span {
+    color: var(--vert);
+}
+
+.logo, .logo span {
+    font-weight: 600;
+    font-size: 36px;
+    font-family : 'Lucida Handwriting', sans-serif;
+}
+    
+.logo span:hover {
+    color: var(--orange);
+}
+
+.recherche {
+    display: flex;
+}
+
+.barre__recherche {
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    padding: 12px 10px;
+    height: 36px;
+    width: 300px;
+    margin-right: 8px;
+    font-size: 16px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    color: #454545;
+}

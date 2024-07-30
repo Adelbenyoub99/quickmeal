@@ -1,0 +1,42 @@
+section {
+    position: relative;
+    left: 0;
+    top: 12vh;
+
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url('../assets/hero.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .item {
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .item h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .item p {
+    margin: 5px 0;
+  }
+  
+  .item .price {
+    font-weight: bold;
+  }
+  
